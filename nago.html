@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAGO - Service de Livraison à Domicile à Goma</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Personnalisation des couleurs */
+        body {
+            background: linear-gradient(to bottom right, #E6F2FF, #FFFFFF);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="/NAGO LOGO B.png" alt="Logo NAGO" class="h-12 w-12 mr-4 rounded-full border-2 border-white">
+                <h1 class="text-2xl font-bold text-white">NAGO </h1>
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="#accueil" class="hover:text-cyan-200 transition">Accueil</a></li>
+                <li><a href="#a-propos" class="hover:text-cyan-200 transition">À Propos</a></li>
+                <li><a href="#services" class="hover:text-cyan-200 transition">Services</a></li>
+                <li><a href="#tarifs" class="hover:text-cyan-200 transition">Tarifs</a></li>
+                <li><a href="#contact" class="hover:text-cyan-200 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="accueil" class="bg-gradient-to-br from-cyan-500 to-blue-600 text-white text-center py-16">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold mb-4 text-white drop-shadow-lg">Naleta Goma - Votre partenaire de livraison</h2>
+            <p class="text-xl mb-8 text-cyan-100">Livraison rapide, fiable et personnalisée dans toute la ville de Goma</p>
+            <a href="#contact" class="bg-white text-cyan-600 px-6 py-3 rounded-full font-bold hover:bg-cyan-50 transition shadow-md">
+                Commander une Livraison
+            </a>
+        </div>
+    </header>
+
+    <!-- À Propos Section -->
+    <section id="a-propos" class="container mx-auto py-16 px-4 bg-white/50 backdrop-blur-sm">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-cyan-800">Qui sommes-nous ?</h2>
+                <p class="mb-4 text-blue-900">
+                    NALETA Goma est une entreprise de logistique locale spécialisée dans la livraison à domicile en République Démocratique du Congo, plus précisément à Goma. Nous avons créé ce service pour répondre aux défis que rencontrent les habitants au quotidien : <br>
+
+                    <br>L’insécurité après 17h, qui limite les déplacements,<br>
+                    Les commerces qui ferment tôt, empêchant les courses après le travail,<br>
+                    Le coût élevé des transports et l’absence de services de livraison abordables.<br>
+                </p>
+                <p class="text-blue-900">
+                    Grâce à NALETA Goma, les résidents, les travailleurs, les étudiants et les familles peuvent commander et recevoir leurs courses en toute sécurité, sans se déplacer. Nous connectons les clients aux commerçants locaux et aux livreurs, offrant un service fiable, rapide et accessible à tous.<br>
+
+                    <br>Notre mission : Rendre la livraison plus simple, plus abordable et plus sécurisée à Goma.<br>
+                    <br> <h2 class="text-3xl font-bold mb-6 text-cyan-800">Notre Vision</h2>
+                    <p class="text-blue-900"> Transformer la logistique urbaine en RDC et faciliter l’accès aux services essentiels.<br>
+
+                    <br>Avec NALETA Goma, la livraison devient une solution et non un problème ! </p>
+                </p>
+            </div>
+            <div>
+                <img src="/NAGO LOGO B.png" alt="NAGO" class="rounded-lg shadow-lg border-4 border-cyan-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mx-auto py-16 px-4 bg-sky-50">
+        <h2 class="text-3xl font-bold text-center mb-12 text-cyan-800">Nos Services Spécialisés</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md text-center border-b-4 border-cyan-500 hover:shadow-xl transition">
+                <i class="fas fa-utensils text-cyan-600 text-5xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Livraison de Repas</h3>
+                <p class="text-blue-700">Faites-vous livrer vos plats préférés, chauds et savoureux.</p>
+            </div>
+            <!-- Autres services avec un style similaire -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center border-b-4 border-cyan-500 hover:shadow-xl transition">
+                <i class="fas fa-shopping-basket text-cyan-600 text-5xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Livraison de produits alimentaires & épicerie</h3>
+                <p class="text-blue-700">Commandez vos courses et recevez-les à domicile.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center border-b-4 border-cyan-500 hover:shadow-xl transition">
+                <i class="fas fa-box text-cyan-600 text-5xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Livraison de Colis</h3>
+                <p class="text-blue-700">Envoi et réception de colis dans toute la ville. Suivi en temps réel et service de collecte à domicile.</p>
+            </div>
+           <!-- <div class="bg-white p-6 rounded-lg shadow-md text-center border-b-4 border-cyan-500 hover:shadow-xl transition">
+                <i class="fas fa-box text-cyan-600 text-5xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Livraison de médicaments & produits pharmaceutiques.</h3>
+                <p class="text-blue-700">Achetez vos médicaments sans vous déplacer.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center border-b-4 border-cyan-500 hover:shadow-xl transition">
+                <i class="fas fa-box text-cyan-600 text-5xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-4 text-blue-900">Livraison express (moins de 30 min) </h3>
+                <p class="text-blue-700">Pour vos besoins urgents.</p>
+            </div>
+            Les autres services suivront le même style -->
+        </div>
+    </section>
+
+    <!-- Tarifs Section -->
+    <section id="tarifs" class="bg-gradient-to-br from-sky-100 to-cyan-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12 text-cyan-800">Nos Tarifs</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-cyan-500 hover:scale-105 transition">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-900">Standard</h3>
+                    <p class="text-3xl font-bold text-cyan-600 mb-4">1$-4$ selon la distance</p>
+                    <ul class="mb-6 space-y-2 text-blue-700">
+                        <li>Livraison standard</li>
+                        <li>Délai: 30-50 minutes</li>
+                        <li>Zone urbaine de Goma</li>
+                        <li>Suivi basique</li>
+                    </ul>
+                    <button class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-full hover:opacity-90 transition">
+                        Choisir
+                    </button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-cyan-500 hover:scale-105 transition">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-900">Expresse</h3>
+                    <p class="text-3xl font-bold text-cyan-600 mb-4"> 5$-10$</p>
+                    <ul class="mb-6 space-y-2 text-blue-700">
+                        <li>Livraison Expresse</li>
+                        <li>Délai: 10-29 minutes</li>
+                        <li>Zone urbaine de Goma</li>
+                        <li>Suivi basique</li>
+                    </ul>
+                    <button class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-full hover:opacity-90 transition">
+                        Choisir
+                    </button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-cyan-500 hover:scale-105 transition">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-900">Premium</h3>
+                    <p class="text-3xl font-bold text-cyan-600 mb-4"> Abonnement mensuel 40$</p>
+                    <ul class="mb-6 space-y-2 text-blue-700">
+                        <li>Pour les abonnes</li>
+                        <li>Délai: 1h-2h</li>
+                        <li>Zone urbaine de Goma</li>
+                        <li>Suivi basique</li>
+                    </ul>
+                    <button class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-full hover:opacity-90 transition">
+                        Choisir
+                    </button>
+                </div>
+                <!-- Les autres options de tarifs suivront le même style -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-16 px-4 bg-sky-50">
+        <div class="bg-white shadow-lg rounded-lg p-8 max-w-lg mx-auto border-t-4 border-cyan-500">
+            <h2 class="text-3xl font-bold text-center mb-8 text-cyan-800">Contactez NAGO</h2>
+            <form class="space-y-4">
+                <input type="text" placeholder="Votre Nom" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none" required>
+                <input type="tel" placeholder="Numéro de Téléphone" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none" required>
+                <input type="email" placeholder="Votre Email" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none" required>
+                <textarea placeholder="Détails de votre livraison ou message" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none" rows="4" required></textarea>
+                <button type="submit" class="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white p-3 rounded-lg hover:opacity-90 transition">
+                    Envoyer ma Demande
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-cyan-800 to-blue-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-cyan-100">NAGO - Naleta Goma</h3>
+                <p class="text-cyan-200">Adresse: Avenue Felix Tshisekedi, Quartier Himbi, Goma, RD Congo</p>
+                <p class="text-cyan-200">Téléphone: +243 979359315</p>
+                <p class="text-cyan-200">Email: contact@nago-livraison.cd</p>
+            </div>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-cyan-200 hover:text-white transition"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-cyan-200 hover:text-white transition"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="text-cyan-200 hover:text-white transition"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-cyan-200 hover:text-white transition"><i class="fab fa-whatsapp text-2xl"></i></a>
+            </div>
+            <p class="mt-4 text-cyan-300">&copy; 2025 NAGO Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
